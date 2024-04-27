@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>devlopment web</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <fieldset>
+        <fieldset>
+            <legend>
+                ajout d un abonnement 
+            </legend>
+            <table>
+                <tr>
+                    <td>Cin :</td>
+                    <td><input type="text" id="cin"></td>
+                </tr>
+                <tr>
+                    <td>nom</td>
+                    <td><input type="text" id="nom"></td>
+                </tr>
+                <tr>
+                    <td>Prenom</td>
+                    <td><input type="text" id="prenom"></td>
+                </tr>
+                <tr>
+                    <td>address</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Reveu</td>
+                    <td>
+                        <select id="option"><option id="op1" value="12.25">choisir un titre</option><option value="1.25">java pour debutant</option><option value="8.540">mots fleches</option><option value="5,2">le meilleur du foot</option></select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> duree (mois) :<input type="radio" id="duree1" value="3" name="du">3<input type="radio" id="duree2" value="6" name="du">6<input type="radio" id="duree3" value="9" name="du">9</td>
+                </tr>
+                <tr>
+                    <td>
+                        <button onclick="valider()">Valider</button>
+                    </td>
+                    <td>
+                        <button onclick="calculer()">Calculer</button>
+                        <button onclick="annuler()">Annuler</button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <p>nous les sommes le <p id="date"> la date</p></p>
+        <p>montant a payer<p>le monatant a payer</p></p>
+        <p>date d echence<p></p></p>
+    </fieldset>
+    <script src="js.js"></script>
+    
+</body>
+</html>
