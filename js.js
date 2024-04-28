@@ -34,6 +34,9 @@ function valider() {
 }
 
 function calculer() {
+    var d = new Date();
+    ch =d.getDate() +"/"+d.getMonth() +"/"+d.getFullYear()
+    console.log(ch)
     var selected_option = document.getElementById("option").value;
     alert(selected_option)
     prix =selected_option
